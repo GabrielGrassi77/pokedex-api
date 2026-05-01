@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+html, body
+
+   
+
+
+body{
+    background-image: url(../img/fundo1.jpg);
+    background-size: cover;
+}
+
+
+div#imgpokemon{
+    width: 550px;
+    height: 350px;
+    background-image: url(../img/FundoPixel.png);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px rgb(10, 179, 179);
+    margin: 5% auto 10px;
+    padding: 5px;
+    position: relative;
+}
+
+#fotoPokemon {
+    position: absolute; 
+    top: 40px; 
+    left: 65px;
+    width: 120px;
+}
+
+#infoPokemon {
+    position: absolute; 
+    top: 0px; 
+    left: 420px; 
+    color:rgb(56, 56, 56);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nomePokemon {
+    margin: 0;
+    padding: 0; 
+                                                
+}
+
+#idPokemon {
+    margin: 10px 0 0 0; 
+    padding: 0; 
+                                                
+}
+
+#tipo {
+    margin: 15px 0 0 0; 
+    padding: 0; 
+                                                
+}
+
+#categoria {
+    margin: 15px 0 0 0; 
+    padding: 0; 
+                                                
+}
+
+#genero {
+    margin: 9px 0 0 0; 
+    padding: 0; 
+                                                
+}
+
+#altura {
+    margin: 7px 0 0 0; 
+    padding: 0; 
+                                                
+}
+
+#input {
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+#codigoPokemon {
+    border: 3px solid #3498db;
+    border-radius: 6px;        
+    font-size: 16px;           
+}
+
+#codigoPokemon:focus {
+    border-color: #1100ff;    
+    outline: none;          
+}
+
+
+#logo {
+    width: 150px;
+    padding: 10px;
+}
+
+#logoPokedex {
+    max-width: 100%; 
+}
+
+#escolha {
+    width: 300px;
+    margin: 100px 0px 0px 600px;
+}
+
+#escolher{
+    max-width: 100%;
+}
+
+#imgpokemon {
+    width: 150px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#logoPokedex {
+    max-width: 100%; 
+}
+
+h3#erroResposta{
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
